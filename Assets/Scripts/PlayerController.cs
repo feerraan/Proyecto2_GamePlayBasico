@@ -6,9 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed = 10f;
 
+    [SerializeField] private GameObject foodPrefab;
+
     private float horitzontalInput;
 
     private float xRange = 15f;
+
+    
 
 
 
@@ -28,7 +32,10 @@ public class PlayerController : MonoBehaviour
 
         PlayerInBounds();
 
-
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            ShootFood();
+        }
 
     }
 
@@ -50,5 +57,10 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
+
+    private void ShootFood()
+    {
+        Instantiate(foodPrefab, transform.position, Quaternion.identity);
     }
 }
