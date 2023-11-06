@@ -1881,6 +1881,7 @@ GameObject:
   - component: {fileID: 8863681562456773004}
   - component: {fileID: 891120786909200629}
   - component: {fileID: -3348980113397574566}
+  - component: {fileID: 6436302586242048958}
   m_Layer: 0
   m_Name: PastorAleman
   m_TagString: Untagged
@@ -1995,6 +1996,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.08393743, y: 0.21641612, z: 0.27300262}
   m_Center: {x: 0.000057613852, y: 0.10439172, z: 0.03275783}
+--- !u!114 &6436302586242048958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828624696389602945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7520f9771ef942f4490d75c6d07b2371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  bottomBound: -5
 --- !u!1 &2865830494588941736
 GameObject:
   m_ObjectHideFlags: 0

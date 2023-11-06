@@ -3106,6 +3106,7 @@ GameObject:
   - component: {fileID: 3523960405031019777}
   - component: {fileID: 7231684666956015272}
   - component: {fileID: 5300001301292343455}
+  - component: {fileID: -2389003529505130935}
   m_Layer: 0
   m_Name: BorderCollie
   m_TagString: Untagged
@@ -3220,6 +3221,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.08126197, y: 0.19792129, z: 0.27099606}
   m_Center: {x: 0.00021838314, y: 0.09779633, z: 0.03137729}
+--- !u!114 &-2389003529505130935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479415173318437325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7520f9771ef942f4490d75c6d07b2371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  bottomBound: -5
 --- !u!1 &4497329387717216943
 GameObject:
   m_ObjectHideFlags: 0
